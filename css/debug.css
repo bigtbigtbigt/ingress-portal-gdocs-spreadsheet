@@ -1,0 +1,22 @@
+@CHARSET "US-ASCII";
+
+.debug-info
+{
+	color: gray;
+}
+
+.debug-success
+{
+	color: green;
+}
+
+.debug-warning
+{
+	color: orange;
+}
+
+.debug-error
+{
+	color: red;
+}
+
