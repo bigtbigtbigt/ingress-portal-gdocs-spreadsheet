@@ -4,9 +4,9 @@
  * Set $googleDocs as true in your main PHP file for the functions to work.
  */
 
-$libs_dir = '/var/www/landaenterprises.com/libs';
+$libs_dir = '';
 
-require_once $libs_dir . '/debug.php';
+require_once $libs_dir . 'debug.php';
 
 /*
  * Globals
@@ -83,10 +83,6 @@ function googleDocs_authenticate() {
         $client->setRedirectUri($this_uri);
         $client->setDeveloperKey('AIzaSyB-9nHW-se4-CkPoN283Wwq7lpa9zbc2Jk');
 
-        //debug( 'Setting Access Token' );
-        //$client->setAccessToken($client->authenticate());
-
-        //debug( 'Authenticated', 'success' );
 }
 
 function googleDocs_authenticate_step_two() {

@@ -1,6 +1,6 @@
 <?php
 if (isset($_REQUEST['debug'])) {
-	echo "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<link rel='stylesheet' href='/css/debug.css' />\n</head>\n<body>\n";
+	echo "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<link rel='stylesheet' href='css/debug.css' />\n</head>\n<body>\n";
 }
 
 function debug( $object, $html_class='info' ) {
